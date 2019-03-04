@@ -56,7 +56,7 @@ public final class InventoryContract {
         public static final String COLUMN_INVENTORY_NAME = "name"; // type TEXT - NOT NULL - means the field cannot be left blank
         public static final String COLUMN_INFO = "information"; //type TEXT BREED
         public static final String COLUMN_INVENTORY_PRICE = "price"; //type INTEGER PRICE
-        public static final String COLUMN_INVENTORY_CATEGORY = "gender"; //type INTEGER - NOT NULL - means the field cannot be left blank - DEFAULT 0 - menas if no data entered, default is UNKNOWN gender.
+        public static final String COLUMN_INVENTORY_CATEGORY = "category"; //type INTEGER - NOT NULL - means the field cannot be left blank - DEFAULT 0 - menas if no data entered, default is UNKNOWN gender.
         public static final String COLUMN_INVENTORY_QUANTITY = "no_of_inventory"; //type INTEGER QUANTITY
         public static final String COLUMN_INVENTORY_IMAGE = "image";
         public static final String COLUMN_INVENTORY_PHONE = "supplier_phone";
