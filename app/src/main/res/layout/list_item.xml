@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item in the list of pets -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_margin"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/catalogActivityMainColor"
+        tools:text="Item Name"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorAccentOrange"
+        tools:text="150"/>
+
+    <TextView
+        android:id="@+id/dollar_sign"
+        android:paddingLeft="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorAccentOrange"
+        android:text="@string/inventory_currency"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity_title"
+            android:textSize="@dimen/text_size"
+            android:layout_marginRight="@dimen/margin"
+            android:textColor="@color/colorPrimaryDark"/>
+
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:text="0"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_size"/>
+
+
+        <ImageButton
+            android:id="@+id/sell_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="false"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_add_to_cart"
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

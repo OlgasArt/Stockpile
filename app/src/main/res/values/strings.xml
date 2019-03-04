@@ -1,0 +1,156 @@
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Stockpile ▪ Inventory App ▪</string>
+
+    <!-- Label for overflow menu option that inserts fake inventory data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all inventory data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Inventory</string>
+
+    <string name="search_database">Search</string>
+
+    <!-- Title for the activity to add a new inventory [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_inventory">Add an Inventory</string>
+
+    <!-- Label for editor menu option to save inventory and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current inventory [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_name">Name</string>
+
+    <!-- Label for quantioty information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Label for category information in the editor [CHAR LIMIT=30] -->
+    <string name="category_category">Category</string>
+
+    <!-- Label for price information in the editor [CHAR LIMIT=30] -->
+    <string name="category_price">Price</string>
+
+    <!-- Label for currency information in the editor [CHAR LIMIT=30] -->
+    <string name="inventory_currency">$</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_inventory_name">Inventory Name</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_inventory_price">Price</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_additional_info">Additional information</string>
+
+    <!-- Text hint for phone number field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_phone_contact">Phone number</string>
+
+    <!-- Text hint for email adress field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_email_contact">Email address</string>
+
+    <!-- Label for dropdown menu option if the inventory's gender is unknown [CHAR LIMIT=20] -->
+    <string name="category_unknown">Unknown</string>
+
+    <!-- Label for dropdown menu option if the inventory is male [CHAR LIMIT=20] -->
+    <string name="category_home">Home</string>
+
+    <!-- Label for dropdown menu option if the inventory is female [CHAR LIMIT=20] -->
+    <string name="category_office">Office</string>
+
+    <!-- Label for the supplier's contact information section -->
+    <string name="category_supplier">Supplier Details</string>
+
+    <!-- Toast message in editor when new inventory has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_inventory_successful">Inventory saved</string>
+
+    <!-- Toast message in editor when new inventory has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_inventory_failed">Error with saving inventory</string>
+
+    <!-- Toast message in editor when inventory data has been successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_inventory_successful">Inventory updated</string>
+
+    <!-- Toast message in editor when new inventory has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_inventory_failed">Error with updating inventory</string>
+
+    !-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit empty here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a inventory [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding inventory</string>
+    <!--Edit inventory-->
+    <string name="editor_activity_title_edit_inventory">Edit Inventory</string>
+
+    <!--Add a new inventory-->
+    <string name="editor_activity_title_add_inventory">Add an Inventory</string>
+
+    <!--Add a new inventory message-->
+    <string name="insert_inventory_name_toast">Insert a new inventory!</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current inventory [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current inventory was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_inventory_successful">Inventory deleted</string>
+
+    <!-- Toast message in editor when current inventory has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_inventory_failed">Error with deleting inventory</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current inventory [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this inventory?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current inventory [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current inventory [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Display of the Quantity - amount of items [CHAR LIMIT=20] -->
+    <string name="quantity_title">Q-ty: </string>
+
+    <!-- Message that appears when pictures are selected from the phone storage -->
+    <string name="select_picture">Select Picture</string>
+
+    <!-- File types that are selected from the phone storage-->
+    <string name="intent_type">image/*</string>
+
+    <!-- Message for validation of name-->
+    <string name="name_required">Please enter name</string>
+
+    <!-- Message for validation of price-->
+    <string name="price_required">Please enter price</string>
+
+    <!-- Message for validation of image-->
+    <string name="image_required">Please upload an image</string>
+
+    <!-- Order more inventory-->
+    <string name="action_order">Order More</string>
+
+    <!-- Message that apears upon the click of ''Order More'' button-->
+    <string name="order_message">Place an order</string>
+
+   <!-- Text for the option to order via phone contact-->
+    <string name="via_phone">Via Phone</string>
+
+    <!-- Text for the option to order via email contact-->
+    <string name="via_email">Via Email</string>
+
+    <!--Warning that inventory is out of stock-->
+    <string name="toast_out_of_stock_msg">Inventory out of stock</string>
+
+    <!--Error updating inventory->
+    <string name="stock_update_error">Error updating the inventory quantity</string>
+
+    <!-Text for log message-->
+    <string name="no_inventory">No inventory</string>
+
+    <!--Text for log message-->
+    <string name="purchase_confirmation">Purchase confirmed</string>
+
+</resources>
