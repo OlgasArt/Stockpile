@@ -324,7 +324,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         String quantityString = mQuantityTextView.getText().toString().trim();
         String phoneString = mSupplierPhoneEditText.getText().toString().trim();
         String emailString = mSupplierEmailEditText.getText().toString().trim();
-
+        String image = mImageUri.toString();
 
         {
 
@@ -360,7 +360,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
                 Toast.makeText(this, getString(R.string.image_required), Toast.LENGTH_SHORT).show();
                 return hasAllRequiredValues;
             } else {
-                values.put(InventoryEntry.COLUMN_INVENTORY_IMAGE, mImageUri.toString());
+                values.put(InventoryEntry.COLUMN_INVENTORY_IMAGE, image);
             }
 
             // Optional values
