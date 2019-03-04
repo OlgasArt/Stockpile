@@ -324,7 +324,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         String quantityString = mQuantityTextView.getText().toString().trim();
         String phoneString = mSupplierPhoneEditText.getText().toString().trim();
         String emailString = mSupplierEmailEditText.getText().toString().trim();
-
+        String image = mImageUri.toString();
 
         {
 
@@ -360,7 +360,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
                 Toast.makeText(this, getString(R.string.image_required), Toast.LENGTH_SHORT).show();
                 return hasAllRequiredValues;
             } else {
-                values.put(InventoryEntry.COLUMN_INVENTORY_IMAGE, mImageUri.toString());
+                values.put(InventoryEntry.COLUMN_INVENTORY_IMAGE, image);
             }
 
             // Optional values
@@ -593,7 +593,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
             // Extract out the value from the Cursor for the given column index
             String name = cursor.getString(nameColumnIndex);
             String info = cursor.getString(infoColumnIndex);
-            int gender = cursor.getInt(categoryColumnIndex);
+            int category = cursor.getInt(categoryColumnIndex);
             int price = cursor.getInt(priceColumnIndex);
             int quantity = cursor.getInt(quantityColumnIndex);
             String supplierPhone = cursor.getString(phoneColumnIndex);
@@ -614,7 +614,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
             // Category is a dropdown spinner, so map the constant value from the database
             // into one of the dropdown options (0 is Unknown, 1 is Home, 2 is Office).
             // Then call setSelection() so that option is displayed on screen as the current selection.
-            switch (gender) {
+            switch (category) {
                 case InventoryEntry.CATEGORY_HOME:
                     mCategorySpinner.setSelection(1);
                     break;
