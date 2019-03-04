@@ -29,6 +29,7 @@ Copyright (c) 2019 OlgasArt_
 
 Screenshots:
 ===================================
-![stockpile_olgasart](https://user-images.githubusercontent.com/42648724/53737676-78d44980-3e8d-11e9-9f2f-9641d69c550a.jpg)
+![stockpile_olgasart1](https://user-images.githubusercontent.com/42648724/53741129-f734e980-3e95-11e9-95f5-4ea9933504ba.jpg)
 
 Please contact if you have questions, or would like to cooperate.
+
